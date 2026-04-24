@@ -26,7 +26,20 @@ This example uses 3 line sensors where the middle sensor reads black line and th
 
 ### Programming Language
 
-* Python  <img align="center" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
+* Python <img align="center" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
+
+### ⚠️ Important
+
+We recommend **avoiding general library updates** (`pip install --upgrade`).
+
+**Why?**  
+Some libraries (e.g. NumPy) introduce significant changes between versions that can break code that was previously working perfectly.
+
+### ✅ Recommended Best Practice:
+
+- Update **libraries individually**, one at a time:
+  ```bash
+  pip install numpy==2.2.6   # example of a stable version
 
 ### Required Libraries
 
